@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now – Paw Lovers</title>
+
+    <!-- FACEBOOK PIXEL -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+
+        fbq('init', '23989926337271058'); // Replace with your real Pixel ID
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=23989926337271058&ev=PageView&noscript=1"/>
+    </noscript>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            text-align: center;
+            padding: 2em;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #555;
+            font-size: 1.1em;
+            margin: 1em 0;
+        }
+        a.button {
+            background-color: #5e60ce;
+            color: #fff;
+            padding: 1em 2em;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.2em;
+            transition: background 0.3s;
+            display: inline-block;
+        }
+        a.button:hover {
+            background-color: #4e4fcf;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🐾 Welcome to Paw Lovers</h1>
+    <p>Professional and loving care for your furry friend.</p>
+
+    <a class="button"
+       href="https://www.vagaro.com/pawloverspetcare/book-now"  <!-- Replace with your actual Vagaro link -->
+       onclick="fbq('track', 'Lead'); fbq('track', 'AddToCart');"
+       target="_blank">
+       Book Now
+    </a>
+
+    <p style="margin-top: 2em;">📍 Appointment required via Vagaro.</p>
+
+</body>
+</html>
